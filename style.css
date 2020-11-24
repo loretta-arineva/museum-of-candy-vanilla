@@ -73,6 +73,14 @@ table {
     border-spacing: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 /* Main CSS */
 
 body {
@@ -93,7 +101,7 @@ header {
     width: inherit;
 }
 
-nav li, .content-wrapper h2 {
+#main-nav li a, .content-wrapper h2 {
     color: white;
 }
 
@@ -101,7 +109,7 @@ nav li, .content-wrapper h2 {
     background-color: hsla(0, 0%, 100%, 0.65);
 }
 
-.scroll ul li {
+.scroll ul li a {
     color: #fa88b8;
 }
 
@@ -115,7 +123,7 @@ nav li, .content-wrapper h2 {
     padding: 10px;
 }
 
-.foward-slash, #main-nav li:first-child, #main-nav li:hover, article h3, footer {
+.foward-slash, #main-nav li:first-child a, #main-nav li:hover a, #main-nav li:hover, article h3, footer {
     color: #EA1C2C;
 }
 
